@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.nav-bar{
+    position: fixed;
+    overflow: auto;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding : 0 8px 0 8px;
+}
+ul li a:hover{
+    color : blue;
+}
+
+.text{
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
