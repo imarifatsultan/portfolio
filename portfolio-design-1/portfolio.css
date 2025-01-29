@@ -258,24 +258,23 @@ a {
 
 .navbar ul .search-bar {
     display: flex;
-    align-items: center; /* Align items vertically in the center */
-    gap: 5px; /* Add some space between the input and the icon */
+    align-items: center; 
+    gap: 5px; 
 }
 
 .navbar ul .search-bar input {
     background: transparent;
     border: 1px solid #7cf03d;
-    padding: 3px 10px; /* Adjust padding for better alignment */
+    padding: 3px 10px; 
     border-radius: 20px;
     color: #fff;
-    font-size: 16px; /* Match the font size with other navbar items */
-    outline: none; /* Remove the default outline */
-}
+    font-size: 16px; 
+    outline: none; 
 
 .navbar ul .search-bar i {
     color: #fff;
-    font-size: 20px; /* Adjust the icon size if needed */
-    cursor: pointer; /* Add a pointer cursor for better UX */
+    font-size: 20px; 
+    cursor: pointer;
 }
 
 .navbar ul .search-bar input:hover {
@@ -286,35 +285,3 @@ a {
     color: #7cf03d;
 }
 
-/* 
-.navbar ul .search-bar input {
-    background: transparent;
-    border: 1px solid #7cf03d;
-    padding: 3px 10px;
-    border-radius: 20px;
-    color: #fff;
-} 
-
-.navbar ul .search-bar input:hover {
-    border: 1px solid #fff;
-}
-
-.navbar ul .search-bar i {
-    color: #fff;
-   
-}
-
-.navbar ul .search-bar {
-    justify-content: center;
-    text-align: center;
-}
-
-.navbar ul .search-bar i:hover {
-    color: #7cf03d;
-}
-
-
-
-
-
- */
