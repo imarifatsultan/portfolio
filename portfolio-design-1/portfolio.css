@@ -256,7 +256,37 @@ a {
     }
 }
 
+.navbar ul .search-bar {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 5px; /* Add some space between the input and the icon */
+}
 
+.navbar ul .search-bar input {
+    background: transparent;
+    border: 1px solid #7cf03d;
+    padding: 3px 10px; /* Adjust padding for better alignment */
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px; /* Match the font size with other navbar items */
+    outline: none; /* Remove the default outline */
+}
+
+.navbar ul .search-bar i {
+    color: #fff;
+    font-size: 20px; /* Adjust the icon size if needed */
+    cursor: pointer; /* Add a pointer cursor for better UX */
+}
+
+.navbar ul .search-bar input:hover {
+    border: 1px solid #fff;
+}
+
+.navbar ul .search-bar i:hover {
+    color: #7cf03d;
+}
+
+/* 
 .navbar ul .search-bar input {
     background: transparent;
     border: 1px solid #7cf03d;
@@ -287,39 +317,4 @@ a {
 
 
 
-
-
-
-/* 
-.navbar .search-bar {
-    border: 1px solid #fff;
-    border-radius: 20px;
-    overflow: hidden;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-}
-
-.navbar .search-bar .input {
-    margin: 0 10px;
-    background: transparent;
-    border: none;
-    padding: 0;
-    color: #fff;
-    text-align: left;
-}
-
-.navbar .search-bar button i{
-    padding: 0;
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    margin: 0 5px 0 5px;
-    
-}
-
-.navbar .search-bar:hover {
-    border: 1px solid #7cf03d;
-    border-radius: 20px;
-} */
+ */
